@@ -11,7 +11,8 @@
  *    + tienen un solo nombre, por ejemplo 'img'
  *    + los datos se distinguen porque "van numerados", es lo que llamamos "indexados"
  *    + el primer dato es el 0, el segundo el 1, el tercero el 2 ...
- *    + un dato se pide con el nombre del array seguido del numero entre cochetes 'img[3]'
+ *    + un dato se pide con el nombre del array seguido del numero entre 
+ *      cochetes 'img[3]'
  *    + se declaran usando el tipo de variable con corchetes (mira el codigo)
  *    + al declararlos hay que decir cuantos datos van a contener
  *
