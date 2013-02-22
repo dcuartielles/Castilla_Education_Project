@@ -8,7 +8,7 @@
  *
  * Paso 6:
  *  - detecta que la manzana aterriza en la cabeza de Newton para poder contar
- *    puntos; la accion detectar que dos objetos se encuentran en la pantalla
+ *    puntos; la accion de detectar que dos objetos se encuentran en la pantalla
  *    se llama "deteccion de colision"
  *  - emplea las funciones condicionales 'if-else' para ver si el circulo
  *    esta sobre el cuadrado, de ser asi, cambia el color del cuadro a rojo
