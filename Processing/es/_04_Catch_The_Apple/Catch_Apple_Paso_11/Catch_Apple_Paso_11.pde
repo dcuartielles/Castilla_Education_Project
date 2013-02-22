@@ -8,7 +8,7 @@
  *
  * Paso 11:
  *  - añade un contador de tiempo para limitar la duracion del juego
- *  - una duracion optima del juego es de medio minuto, hay una fucion, llamada
+ *  - una duracion optima del juego es de medio minuto, hay una funcion, llamada
  *    'millis()' que contabiliza los milisegundos que han pasado desde
  *    la ultima vez que se la llamo. De ese modo puedes ver si han pasado
  *    30000 milisegundos (30 segundos) para terminar el juego
