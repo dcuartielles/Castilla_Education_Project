@@ -33,7 +33,7 @@ long t = 0;      // Almacena el tiempo
  
 void setup() {
   size(400, 400);  
-  nY = height - 45; 
+  nY = height - 135; 
   t = millis();  
   
   // Carga las imagenes
@@ -43,6 +43,7 @@ void setup() {
 }
 
 void draw() {
+  background(200);
   image(im[0], 0, 0, width, height);  // Imagen de fondo
   
   // Movimiento de la manzana
@@ -58,8 +59,8 @@ void draw() {
   fill(255);  
   
   // Deteccion de la colision
-  if (mY + 40 > nY && mY < nY + 40) {  
-    if (mX + 40 > nX && mX < nX + 40) { 
+  if (mY + 50 > nY && mY < nY + 135) {  
+    if (mX + 40 > nX && mX < nX + 128) { 
       fill(255, 0, 0);  
       // Si hay colision, incrementa un punto
       if (pCount) p = p + 1;
