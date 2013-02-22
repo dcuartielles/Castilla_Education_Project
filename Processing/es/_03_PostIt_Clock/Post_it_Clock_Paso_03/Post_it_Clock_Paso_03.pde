@@ -25,8 +25,10 @@ PImage im[] = new PImage[2]; // Declaracion de un array de 2 imagenes
 
 void setup() {
   size(800, 400);   
-  im[0] = loadImage("foto.jpg");   // La primera imagen va a la primera posicion del array img[]
-  im[1] = loadImage("foto2.jpg");  // La segunda imagen va a la segunda posicion del array
+  // La primera imagen va a la primera posicion del array img[]
+  im[0] = loadImage("foto.jpg");   
+  // La segunda imagen va a la segunda posicion del array
+  im[1] = loadImage("foto2.jpg");  
 }
 
 void draw() {
