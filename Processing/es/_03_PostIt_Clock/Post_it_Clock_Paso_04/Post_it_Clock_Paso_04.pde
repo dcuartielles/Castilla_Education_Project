@@ -10,7 +10,8 @@
  *    imagenes y otro para las imagenes
  *  - toma ventaja del hecho de que se puede hacer un array declarando sus
  *    contenidos entre llaves '{dato, dato2 ...}' con los datos separados por comas
- *  - en el programa ejemplo, "foto.jpg" es la posicion 0 del array, "foto2.jpg" es la 1
+ *  - en el programa ejemplo, "foto.jpg" es la posicion 0 del array, 
+ *    "foto2.jpg" es la 1
  *
  *  Nota: este programa hace lo mismo que el anterior
  *  
@@ -22,7 +23,7 @@ String imFile[] = {"foto.jpg", "foto2.jpg"};  // Array de nombres de fichero
 
 void setup() {
   size(800, 400);   
-  im[0] = loadImage(imFile[0]);  // Asigna el nombre del primer fichero a la funcion 'loadImage()'
+  im[0] = loadImage(imFile[0]);  // Nombre del primer fichero a la funcion 'loadImage()'
   im[1] = loadImage(imFile[1]);  // Segundo fichero
 }
 
