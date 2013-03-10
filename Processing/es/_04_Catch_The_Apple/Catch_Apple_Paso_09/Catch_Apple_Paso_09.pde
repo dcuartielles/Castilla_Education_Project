@@ -11,7 +11,7 @@
  *  - la funcion 'text()' te permite poner texto en el programa
  *  - ademas necesitaras un contador para poner los puntos 
  *  - empiezas a tener muchas variables en tu programa, es considerado buena
- *    practica el tener 
+ *    practica el poner comentarios para explicar cada una 
  *
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
  */

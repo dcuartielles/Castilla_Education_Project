@@ -11,7 +11,7 @@
  *  - el teclado se llama 'keyboard' en ingles, y las teclas 'keys'
  *  - cada tecla tiene un 'keyCode', es el valor o codigo del simbolo que representa
  *  - para ver que tecla se presiono, crea una funcion llamada 'keyPressed()'
- *  - para mover el cuadro necesitaras una variable para almacenar su coodenada
+ *  - para mover el cuadro necesitaras una variable para almacenar su coordenada
  *    en el eje X (horizontal)
  *
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia

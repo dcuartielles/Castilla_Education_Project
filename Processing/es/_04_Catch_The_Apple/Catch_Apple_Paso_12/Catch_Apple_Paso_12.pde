@@ -12,7 +12,7 @@
  *    o usar las que te pasamos
  *  - es importante que las imagenes sean de tipo PNG si quieres
  *    que haya transparencia entre las imagenes y el fondo
- *  - ten en cuenta que, al cambiar las formas por imagenes, las propociones
+ *  - ten en cuenta que, al cambiar las formas por imagenes, las proporciones
  *    tambien cambian, tendras que hacer encajar esos valores en tu diseño
  *
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
