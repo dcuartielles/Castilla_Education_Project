@@ -21,7 +21,7 @@ Capture cam;
 Serial myPort;  // The serial port
 
 void setup() {
-  size(640, 480, P2D);
+  size(640, 480);
 
   initializeCamera(0);
 
