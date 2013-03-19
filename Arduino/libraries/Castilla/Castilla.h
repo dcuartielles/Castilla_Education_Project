@@ -8,7 +8,7 @@
 #endif
 
 #include "../CapacitiveSensor/CapacitiveSensor.h"
-#include "../Servo/Servo.h"
+#include <../../../../libraries/Servo/Servo.h>
 
 
 #define LED_LENGTH 20
