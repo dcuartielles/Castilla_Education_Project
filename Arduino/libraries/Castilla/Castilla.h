@@ -8,8 +8,13 @@
 #endif
 
 #include "../CapacitiveSensor/CapacitiveSensor.h"
+// FIXME: nasty trick to get to include the servo library in both Linux and Windows no matter what
+//        needs to be confirmed for the case it is not linux nor windows
+#ifdef _WIN32
+#include "../Servo/Servo.h"
+#else
 #include <../../../../libraries/Servo/Servo.h>
-
+#endif
 
 #define LED_LENGTH 20
 #define BUTTONGROUP_LENGTH 10
