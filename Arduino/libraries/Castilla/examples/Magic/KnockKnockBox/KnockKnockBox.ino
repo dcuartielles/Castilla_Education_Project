@@ -15,7 +15,7 @@
 //The number of knocks can be recorded
 #define MAX_KNOCKS 30
 
-PiezoKnockSensor sensor=PiezoKnockSensor(A5);
+PiezoKnockSensor sensor=PiezoKnockSensor(A0);
 Melody speaker=Melody(8);
 
 //An array for remembering the knock pattern
