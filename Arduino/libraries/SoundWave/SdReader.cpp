@@ -128,6 +128,7 @@ uint8_t SdReader::init(uint8_t slow) {
   uint8_t ocr[4];
   uint8_t r;
   
+  pinMode(10,OUTPUT); // XXX this is to make sure the HW SPI SS is set even if we use a different pin
   pinMode(SS, OUTPUT);
   digitalWrite(SS, HIGH);
   pinMode(MOSI, OUTPUT);

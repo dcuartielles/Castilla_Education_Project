@@ -304,6 +304,8 @@ void WaveHC::pause(void) {
  */
 void WaveHC::play(void) {
   // setup the interrupt as necessary
+  // but first make the speaker pin (number 3 for Arduino Uno and Mega) an OUTPUT
+  pinMode(3, OUTPUT);
 
   int16_t read;
 

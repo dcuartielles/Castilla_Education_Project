@@ -325,7 +325,8 @@
 #define SCL_PIN 19
 
 // SPI port
-#define SS_PIN 10
+//#define SS_PIN 10
+#define SS_PIN 4
 #define MOSI_PIN 11
 #define MISO_PIN 12
 #define SCK_PIN 13
